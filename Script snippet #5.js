@@ -1,0 +1,7 @@
+// myws.send(`{"id":22,"method":"Runtime.compileScript","params":{"expression":"alert('hello word')","sourceURL":"","persistScript":false}}`);
+// myws.send(`{"id":23,"method":"Runtime.evaluate","params":{"expression":"alert('hello word')","objectGroup":"console","includeCommandLineAPI":true,"silent":false,"returnByValue":false,"generatePreview":true,"userGesture":true,"awaitPromise":false}}`);
+
+myws.send(`{"id":100,"method":"Emulation.setEmulatedMedia","params":{"media":"","features":[{"name":"color-gamut","value":""},{"name":"prefers-color-scheme","value":""},{"name":"forced-colors","value":""},{"name":"prefers-contrast","value":""},{"name":"prefers-reduced-data","value":""},{"name":"prefers-reduced-motion","value":""}]}}`);
+myws.send(`{"id":101,"method":"Emulation.setEmulatedMedia","params":{"media":"","features":[{"name":"color-gamut","value":""},{"name":"prefers-color-scheme","value":"dark"},{"name":"forced-colors","value":""},{"name":"prefers-contrast","value":""},{"name":"prefers-reduced-data","value":""},{"name":"prefers-reduced-motion","value":""}]}}`);
+// myws.send(`{"id":102,"method":"Emulation.setAutoDarkModeOverride","params":{}}`);
+myws.send(`{"id":102,"method":"Emulation.setAutoDarkModeOverride","params":{"enabled":true}}`)

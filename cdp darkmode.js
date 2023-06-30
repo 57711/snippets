@@ -1,0 +1,2 @@
+myws.send(`{"id":101,"method":"Emulation.setEmulatedMedia","params":{"media":"","features":[{"name":"color-gamut","value":""},{"name":"prefers-color-scheme","value":""},{"name":"forced-colors","value":""},{"name":"prefers-contrast","value":""},{"name":"prefers-reduced-data","value":""},{"name":"prefers-reduced-motion","value":""}]}}`);
+myws.send(`{"id":102,"method":"Emulation.setAutoDarkModeOverride","params":{}}`)
